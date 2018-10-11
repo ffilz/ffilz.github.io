@@ -1,0 +1,214 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Frank Filz's Traveller Page</TITLE>
+
+</HEAD>
+
+<BODY>
+
+<P ALIGN=CENTER><FONT SIZE=+4>Frank Filz's Traveller Page</FONT>
+
+<P>
+
+<HR SIZE=6><P>
+
+<p>The following are some data files that I have been working on for producing a star map for my universe:
+
+<ul>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/Traveller/mystars.stars">The star systems in my "universe"</a>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/Traveller/mystars.connections">A different view of the data, showing stars in reach of their neighbors</a>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/Traveller/additional.stars">The primary input file to the program used to generate the first star list<a>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/Traveller/habcat.example">A sample of the HabCat data processed for input to the star list generator</a>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/Traveller/more.example">A sample of the HYG XYZ data processed for input to the star list generator</a>
+</ul>
+
+<p>The way I used this data is first the last three files are used as input by a program that generates stars and groups them into polities.
+
+<p>The primary file is essentially a list of bright stars (mostly taken from  href="http://www.atlasoftheuniverse.com/stars.html">The Brightest Stars</a>
+with a few other stars and objects entered. Most lines represent a star. Lines that begin with a "*" are centers (or capitals) of polities. These are the
+polities then populated by the program. If a polity center is followed by a line beginning with a "+", that line allows the standard jump distance of 30
+parsecs to be overriden. The program will make sure every star in the polity is reachable by jumps within this distance. A polity that is not jump capable
+can have a jump distance of zero. Lines beginning with an "=" indicate connections between polities. The program will assure that the connection can be made without
+jumps larger than the jump distance. If the first star id is non-zero, then any stars placed to allow the connection will be assigned to that polity.
+When this file is read in, initially, only stars that belong to a polity are actually placed. Lines beginning with "#" are comments.
+
+<p>The second character on each star line indicates the general type of star system: G: "good" planets, P: "poor" planets, R: resource planets/systems,
+F: fuel stop, S: scientific station, H: historic site, M: military base, A: ancient civilization relic/archeological site. Star name and spectra are obvious. The 
+association column gives the name of the polity. The pol column indicates the star is a member of that polity (the !RESERVE 19 line means that 19 polity centers will
+be moved to the first 19 entries of the star list as it is read in, this makes it easy to human assign polities without having to number the stars in the input file.
+The P Distance column is the distance from the polity center (in the input file this is likely to be 0). Abs Mag is obvious. The dist column is the distance from Sol. 
+Then the XYZ coordinates are given. Finally, other notes can be associated with a star, here I have provided some known companion information.
+
+<P>The HabCat and HYG data files are much simpler, just having raw star data (though they can be enhanced with the same additional detail, but since these files are
+mostly automatically generated from external data files, I have not put this information in). The HabCat data has been fixed up, I had a star list but no data, so I
+matched the star list with the HYG data base (performed by a program). A few stars showed up as non-main sequence. I edited those to be main-sequence. Other stars had
+variable spectra, so I assigned those towards the ideal of G2V. The HYG data file is a capture of the stars from HYG that were close to the stars initially generated
+by the main populating program, taking only those stars that had complete spectral data.
+
+<P>The main program then absorbs these three input data files. For each polity, it generates a number of stars. It determines where to place stars by placing 1-3 stars 
+in each 30 parsec cube (except for the two clusters), picking adjacent cubes (that have not already had stars placed in them). This keeps the star density reasonable.
+Each star is then connected to at least one other star in the polity by picking additional stars from the rest of the first data file or the other two data files, inventing
+stars if absolutely necessary.
+
+<P>After all the polities are populated, the program automatically generates connections between polities that are a single jump apart. Then any connections listed
+in the input file that have not already been resolved are processed. This will cause additional stars to be picked (or invented) as necessary to allow the connection.
+At this point the meanings of the SR column become relevant. The S column indicates the source file of the star (A for the first data file, H for HabCat, C for the 
+third file, + for invented). The R column indicates the reason the star was placed (p for "picked" as a polity member, s for stars placed as a stopover in creating
+a connection between polities, c for stars placed to replace a polity center that isn't really suitable for habitation (or isn't even a star in the case of the
+Hyades Cluster), r are invented stars for a cluster, 2 and 3 are the 2nd and 3rd stars in a cube).
+
+<P>Finally, all the data that is generated is output to another file. The output file is in the same format as the first data file. This output file is the first file
+in the list above. A second program processes that data file to produce the connections file.
+
+<P>The columns in the connections output file after star name are distance from Sol, X, Y, Z, distance from polity center, distance to polity center by accumulated jumps,
+nearby stars and the distance (parentheses surrounds stars in the same polity, brackets surround stars not in the same polity, a + indicates the distance is beyond
+the polities jump distance). At the end of the file, the connection routes generated are shown, star by star. With distance from Sol, X, Y, Z, and owning polity (by name)
+followed by the two connecting stars in the route.
+
+<P>Next steps are to generate star system data for the invented stars, and start generating planetary data. My plan is to generate planetary data with a more realistic
+system than Traveller, however, I will need a system that is easy to modify a few steps to produce the good and poor habitable worlds. All the other star system types
+can have just about anything, really even a system with no planets (under the assumption that almost every system will have some icy comets that could be harnessed for
+fuel and possibly other resources). I also need to start assigning polities and probably add a few more routes.
+
+<p>Considering that clearly not every star system is mapped, and players may desire to seek out different routes, I will need to build on the programs I have to
+process the data files to extract additional stars. That will be a simple task, with a first step to process the input data files and produce new ones that have
+all the stars that have already been used removed (though the files are already processed after reading in to eliminate duplicates since there are overlaps between 
+the files (for example, most of the bright stars should be in the third file, and most of the HabCat stars should also be in there (excepting the ones that were fixed
+up, and ones in portions of the universe not mapped out)).
+
+<HR SIZE=6><P>
+
+<H1>WEB LINKS</H1>
+
+<H2>OFFICIAL SITES</H2>
+
+<H3><A HREF="http://www.farfuture.net/main.html">Far Future Enterprises</A></H3>
+<P>Marc Miller's Page. Download errata. Order CD-ROMS with electronic copies of the various versions of Traveller.
+
+<HR SIZE=6><P>
+
+<H2>FAN SITES</H2>
+
+<H3><A HREF="http://www.signalgk.com/">Signal-GK</A></H3>
+<P>Site with character, subsector, and animal generators. Also contains some forms.
+
+<H3><A HREF="http://traveller.wikia.com/wiki/Traveller_Wiki">Traveller Wiki</A></H3>
+<P>Extensive listings of products for each version of Traveller, with some magazine indices. An extensive Wiki "Library Data" section.
+
+<H3><A HREF="http://zho.berka.com/">The Zhodani Base</A></H3>
+<P>A nice blog. Has sections on maps, starships, rules, wildlife, Amber Zone (adventures), and more.
+
+<H3><A HREF="http://www.travellercentral.com/">Traveller Central</A></H3>
+<P>Bestiary, library data, character generation (see below), house rules (see below), several alien races.
+<UL>
+	<LI>Advanced character generation for Entertainers
+	<LI>Advanced character generation for Hunters
+	<LI>Advanced character generation for The Pikhan Defense Force (alien)
+	<LI>Advanced small ship combat rules
+	<LI>Decorations (reduce SEH and rules for use with basic character generation)
+	<LI>Medical rules
+	<LI>Low class (problems a character with SOC 5- might have)
+	<LI>Noble benefits (based on Robe and Blaster from White Dwarf)
+</UL>
+
+<H3><A HREF="http://members.pcug.org.au/~davidjw/">Beowulf Down</A></H3>
+<P>Tavoni Repair Bays:
+<UL>
+	<LI><A HREF="http://members.pcug.org.au/~davidjw/tavspecs/maint/missiles.htm">Mayday Missiles</A> - additional 
+rules for rules in Mayday based on Special Supplement 3 Missiles.
+	<LI>Police (MegaTraveller character generation)
+	<LI>Ministry of Justice (MegaTraveller character generation)
+</UL>
+
+<H3><A HREF="http://www.irosf.com/q/zine/article/10119">Deciphering the Text Foundations of Traveller</A></H3>
+<P>A nice article digging into the SF sources for Traveller.
+
+<H3><A HREF="http://www.darkhstarr.com/">High Tortuga</A></H3>
+<P>A piratical campaign.
+<UL>
+	<LI>Several alien races
+	<LI><A HREF="http://www.darkhstarr.com/CorsairsBazaar.html">Equipment and ships</A>
+	<LI><A HREF="http://www.darkhstarr.com/CharacterGen.html">Advanced Pirate Character Generation</A>
+</UL>
+
+<H3><A HREF="http://www.sff.net/people/kitsune/traveller/">Brook's Traveller Lowport</A></H3>
+<P>Deckplans.
+
+<H3><A HREF="http://www.cgi101.com/~lkw/pdf.html">Loren Wiseman's PDF Sales Page</A></H3>
+<P>Deckplans for sale.
+
+<H3><A HREF="http://www.cgi101.com/~lkw/pdf.html">Traveller Map</A></H3>
+<P>An interractive online map of the Imperium.
+
+<H3><A HREF="http://www.utzig.com/cgi-bin/iai/map_top.pl?UID=0">Map of Known Space</A></H3>
+<P>Another interractive online map of the Imperium.
+
+<HR SIZE=6><P>
+
+<H2>DOWNPORT</H2>
+<A HREF="http://www.downport.com/">Links to the following pages</A>
+
+<H3><A HREF="http://www.downport.com/traveller/">Traveller Downport</A></H3>
+<P>Has illustrated list of Traveller products. Also, Universal Task Profile in PDF form.
+
+<H3><A HREF="http://jtas.net/">Traveller's Aid Society</A></H3>
+<P>Character sheets, Atlas (not as good as others).
+
+<H3><A HREF="http://www.travellerfreeport.com/">Traveller Freeport</A></H3>
+<P>TNE campaign page.
+
+<H3><A HREF="http://www.downport.com/amv/">Used Grav Car Lot - Andrew's Traveller Page</A></H3>
+<P>The Greater Magellanic Cloud Campaign (with some aliens).
+
+<H3><A HREF="http://www.downport.com/bard/">B.A.R.D.</A></H3>
+<P>Appears to be a TNE campaign.
+
+<H3><A HREF="http://www.pocketempires.com/">Pocket Empires</A></H3>
+<P>Several smaller web sites - not too much of interest.
+
+<H3><A HREF="http://jtas.net/librarydata/">Reaver's Deep</A></H3>
+<P>HTML Library data
+
+<H3><A HREF="http://gateway.pocketempires.com/index.htm">Gateway University</A></H3>
+<P>Another HTML Library Data
+
+<H3><A HREF="http://www.signalgk.com/">Signal-GK</A></H3>
+<P>See above.
+
+<H3><A HREF="http://eaglestone.pocketempires.com/">Interstellar Economics</A></H3>
+<P>A mostly broken page, also part of Pocket Empires.
+
+<H3><A HREF="http://72.29.73.123/~freetrav/">Freelance Traveller</A></H3>
+<P>A bunch of good stuff.
+
+<UL>
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/decorations.html">Decorations in Marc Miller's Traveller</A> - Decorations rules for Marc Miller's Traveller, has some ideas that might be useful for other services in Classic Traveller.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/expint.html">Expanding and Integrating Character Generation</A> - An example of custom character generation for a campaign.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/ctmtcop.html">John Law: Character Generationm for Classic Traveller/MegaTraveller</A> - Advanced Police Character Generation
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/djwmtcop.html">John Law III: Police Character Generation in MegaTraveller</A> - Another expanded police character generation system.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/djwmtmoj.html">John Law IV: Ministry of Justice Character Generation for MegaTraveller</A> - Expanded character generation for Ministry of Justice.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/chargen/pirates.html">Hoisting the Jolly Roger</A> - Advanced Pirate Character Generation
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/tech/advlasers.html">Advanced Lasers</A> - Laser Weapon Stats
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/tech/ecm.html">Electronic Countermeasures in Traveller</A> - ECM rules.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/tech/advslug.html">Missing Links: Filling In The Gaps In Slug-Thrower Evolution</A> - More weapons.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/rules/tech/psiequip.html">Psionically-Active Equipment and Drugs</A>
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/science/index.html">Lab Ship</A> - Several science articles.
+	<LI><A HREF="http://72.29.73.123/~freetrav/features/science/gasgiants.html">Gas Giants</A>
+</UL>
+
+
+
+<HR SIZE=6><P>
+
+
+<HR SIZE=6><P>
+
+<P><I>Comments to <A HREF=mailto:ffilz@mindspring.com>ffilz@mindspring.com</I></A><BR>
+<p>&copy; Copyright 2010 Frank Filz. All Rights Reserved.
+<p>Page last updated January 14, 2010
+<P><A HREF = http://www.mindspring.com/ffilz>Return to my home page</A>
+
+</BODY>
+</HTML>

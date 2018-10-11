@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-us">
+
+<HEAD>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<TITLE>Traveller Character Generator</TITLE>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="travellercharacter.css">
+
+</HEAD>
+
+<BODY>
+
+<P ALIGN=CENTER><FONT SIZE=+4>Traveller Character Generator</FONT>
+
+<HR SIZE=6><P>
+
+<p>
+The Classic Traveller Character Generator is a Java Script program originally written by Paul Gorman.
+I have been contributing to it, and this web site links to and hosts my latest version. There are
+source code links below.
+
+<p>
+This following link will roll a character up for you, you can hit refresh a few times looking for one you like. Cut and paste and e-mail or otherwise post to me.
+This version has the latest fixes and enhancements I've been working on plus some options chosen to make things easier for my game.
+
+<ul>
+<li><a href="http://www.mindspring.com/~ffilz/Gaming/travellercharactergenerator.html?history=verbose&muster=split&personal=always&vehicles=1977">Classic Traveller Character Generator<a>
+</ul>
+
+<p>The options are documented in the sections below:
+
+<h2>history</h2>
+<ul>
+<li><b>debug</b> - show all the rolls plus a few extra decision making steps
+<li><b>verbose</b> - show all the rolls
+<li><b>none</b> - don't show the history at all
+<li><b>any other value</b> - results in a simplified history, the default
+</ul>
+
+<h2>service</h2>
+Specify a preferred service instead of random.
+<ul>
+<li><b>navy</b>
+<li><b>marines</b>
+<li><b>army</b>
+<li><b>scouts</b>
+<li><b>merchants</b>
+<li><b>other</b>
+</ul>
+
+<h2>minscore</h2>
+<p>
+Specify the minimum score for the preferred service (applies to the
+random service if a preferred service is not specified). The score is
+normally the enlistment bonus the character has for a particular service.
+<p>
+The selection algorithm normally takes the preferred service (random or using
+the service option above) and starts with the enlistment bonus for that service.
+It then checks each service in order, if the examined service has a higher enlistment
+bonus that the currently selected service, it switches. If they are the same, there is
+a 2D roll, 8+ switches.
+<ul>
+<li><b>0</b> - default value, score is calculated for each service as above
+<li><b>1-3</b> - these values give a preference to the chosen service
+<li><b>4</b> - since 4 is higher than the maximum enlistment bonus, the selected service
+will be chosen for enlistment, the draft can still occur.
+<LI><b>8888</b> - overrides the draft with the preferred service (the character is still treated
+as having been drafted, but the preferred service is chosen).
+<li><b>9999</b> - overrides the enlistment roll, forcing enlistment to the
+selected service (no draft).
+</ul>
+
+<h2>muster</h2>
+<p>
+This option allows guiding the mustering out process. The default process is to
+make up to three cash rolls before rolling on the material benefits table.
+<ul>
+<li><b>ship</b> - don't roll for cash until a ship is acquired if possible
+<li><b>TAS</b> - don't roll for cash until Travellers' is acquired if possible
+<li><b>special</b> - combination of above
+<li><b>split</b> - alternate cash and material benefits rolls (until mmaximum
+number of cash rolls have been taken).
+<li><b>any other value</b> - default behavior of taking cash rolls first.
+</ul>
+
+<h2>maxcash</h2>
+<p>
+This option allows specifying the maximum number of cash rolls to make. It may be
+set anywhere from 0 to 3 or even higher (setting it higher is considerd "cheating").
+
+<h2>hunt</h2>
+<p>
+This option is a real timesaver. It lets the system re-roll characters until it
+finds one that meets the specfied criteria.
+<ul>
+<li><b>ship</b> - keep rolling characters until a ship is acquired
+<li><b>TAS</b> - keep rolling characters until Travellers' is acquired
+<li><b>special</b> - keep rolling until ship or TAS is acquired
+<li><b>skill</b> - keep rolling until skill is acquired. Note that this
+option is currently a bit limited. Skills that are multiple words can not be
+searched for.
+</ul>
+
+<h2>level</h2>
+<p>
+When used with hunt=>skill, specifies the minimum level of skill sought.
+
+<h2>vehicles</h2>
+<p>
+This option allows customization of the skill tables to meet specific versions of
+Classic Traveller. The changes all surround the vehicle skill. The default is
+The Traveller Book.
+<ul>
+<li><b>1977</b> - Use the 1977 vehicles (ATV and Air/Raft), Merchants get Strength +1 instead
+of vehicle and Other gets Forgery instead of Vehicle.
+<li><b>1981</b> - Use the 1981 vehicles (Vehicle cascade, except Air/Raft for Army, Merchants Strength +1
+replaced with Vehicle, Other Forgery replaced with Vehicle)
+<li><b>any other value</b> - Default as per The Traveller Book. Note this is a mish-mash between 1977
+and 1981.
+</ul>
+
+<h2>personal</h2>
+<p>
+This option controls when the Personal Development table is used. The default will not use the
+Personal Development table if Education is 8+.
+<ul>
+<li><b>always</b> - The Personal Development table is always available.
+</ul>
+
+<h2>cascade</h2>
+<p>
+This option allows leaving cascade skills for the player to determine after the fact. For benefits,
+it will distribute the benefit as a weapon and then add to the cascade skill. Verbose history can be
+used to unwind if the player wants to take multiple weapon benefits.
+<ul>
+<li><b>skip</b> - Leave cascade skills to be determined later.
+</ul>
+
+<h2>minterms</h2>
+<p>
+With this option, the generator will not accept a character
+that musters out with less than the specified number of terms. It also
+assures the character doesn't voluntarily muster out before that time.
+The default is 1, and if left at default, will still allow deceased
+characters.
+
+<h2>maxterms</h2>
+<p>
+With this option, the generator will limit the maximum number
+of terms for a character to the specified amount. Mandatory
+re-enlistment will not be checked for characters that hit the limit
+(this allows a GM to specify the maximum age of PCs or NPCs).
+
+<h2>maxchars</h2>
+<p>
+This option will limit the maximum number of attempts to
+find a requested character. The default is 10000 and bounds the time
+spent attempting to generate a requested character.
+
+<HR SIZE=6><P>
+
+<h1>Source Code</h1>
+<p>
+The Classic Traveller Character Genertor project is hosted on github. The primary, original
+repo is:
+
+<ul>
+<li><a href="https://github.com/pgorman/travellercharactergenerator">https://github.com/pgorman/travellercharactergenerator</a>
+</ul>
+<p>
+While my repo is:
+<ul>
+<li><a href="https://github.com/makhidkarun/travellercharactergenerator">https://github.com/makhidkarun/travellercharactergenerator</a>
+</ul>
+
+<HR SIZE=6><P>
+
+<P><I>Comments to <A HREF</h2>mailto:ffilz@mindspring.com>ffilz@mindspring.com</I></A><BR>
+<p>&copy; Copyright 2017 Frank Filz. All Rights Reserved.
+<p>Page last updated May 16, 2017
+<P><A HREF=http://www.mindspring.com/~ffilz/Gaming/winedark.html>Return to my Wine Dark Rift page</A>
+<P><A HREF=http://www.mindspring.com/~ffilz/Gaming/Gaming.html>Return to my gaming page</A>
+<P><A HREF=http://www.mindspring.com/~ffilz>Return to my home page</A>
+
+
+</BODY>
+</HTML>

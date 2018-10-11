@@ -1,0 +1,380 @@
+ADVANCED
+!RESERVE 19
+#  SR   ID Star Name                                  Spectra                          Association                       Pol   P Dist Abs Mag    Distance        X        Y        Z  Other Notes
+*G A  0000 Sol (Earth/Terra)                          G2V                              Terra                               1     0.00    4.85        0.00     0.00     0.00     0.00
++  A  0000                                                                             Terra                               1    30.00
+=  A  0000 0001 0003
+=  A  0000 0001 0014
+=  A  0000 0001 0017
+=  A  0000 0014 0017
+=  A  0000 0017 0001
+ S A  0000 Proxima Centauri                           M5Ve                             -                                   1     0.00 -999.50        1.29     0.90    -0.93    -0.04  13kau
+ G A  0000 Alpha Centauri AB                          G2V + K1V                        -                                   1     0.00    4.06        1.35     0.96    -0.94    -0.02  11-22 au
+ S A  0000 Barnard's Star                             sdM4 or M4Ve                     -                                   1     0.00 -999.50        1.82     1.51     0.91     0.44
+ S A  0000 Sirius (Alpha Canis Majoris)               A1V + WD                         -                                   1     0.00    1.43        2.54    -1.70    -1.85    -0.37  20au
+ R A  0000 Epsilon Eridani                            K2V                              -                                   1     0.00 -999.50        3.23    -2.06    -0.56    -2.43  Belt1: 3au, 1.55J: 3.39au, Belt2: 19au, .2J: 20au, 0.1J: 39a
+   A  0000 61 Cygni                                   K5Ve + K7Ve                      -                                   -     0.00 -999.50        3.50     0.47     3.45    -0.35  Maybe BD around A; Stars: 44-124au
+ S A  0000 Procyon (Alpha Canis Minoris)              F5IV-V + WD                      -                                   1     0.00    2.64        3.50    -2.86    -1.88     0.74  9-21au
+ S A  0000 Epsilon Indi                               K5Ve + BD + BD                   -                                   1     0.00 -999.50        3.63     2.20    -0.99    -2.71  BD: 1500au, 2 au apart
+ R A  0000 Tau Ceti                                   G8V                              -                                   1     0.00    5.68        3.64    -1.00     0.14    -3.50  Debris disk
+ S A  0000 van Maanen's Star                          WD                               -                                   1     0.00 -999.50        4.31    -1.20     1.96    -3.65
+   A  0000 Groombridge 1618                           K7V                              -                                   -     0.00 -999.50        4.86    -2.88     0.73     3.84
+   A  0000 DENIS 0255-4700                            BD                               -                                   -     0.00 -999.50        4.97    -0.41    -2.54    -4.25
+   A  0000 Keid (Omicron (40) Eridani)                K1Ve + WD + M5Ve                 -                                   -     0.00 -999.50        5.03    -3.72    -1.44    -3.05  Stars: 420 au (BC: 20.7-49.4 au)
+   A  0000 70 Ophiuchi                                K0Ve + K5Ve + BD                 -                                   -     0.00 -999.50        5.10     4.34     2.50     1.00  Stars: 11.5-34.6 au
+ S A  0000 Altair (Alpha Aquilae)                     A7IV-V                           -                                   1     0.00    2.21        5.13     3.43     3.74    -0.74
+   A  0000 2MA 0415-0935                              BD + BD                          -                                   -     0.00 -999.50        5.74    -4.10    -1.73    -3.61  Each 30-40J
+   A  0000 Sigma Draconis                             K0V                              -                                   -     0.00 -999.50        5.77    -1.05     5.25     2.15
+   A  0000 Eta Cassiopeiae                            G3V + K7V                        -                                   -     0.00    4.59        5.94    -3.11     5.03    -0.52  Stars: 36-105 au
+   A  0000 36 Ophiuchi                                K1Ve + K1Ve + K5Ve               -                                   -     0.00 -999.50        5.97     5.93    -0.14     0.66  AB: 8.3-160 au; AB-C: 4369 au
+   A  0000 Herschel 5173                              K3V + M3V                        -                                   -     0.00 -999.50        6.05     5.16     0.48    -3.12  Stars: 45au
+   A  0000 82 Eridani                                 G5V +                            -                                   -     0.00 -999.50        6.06    -1.09    -3.17    -5.05  Spectroscopic Binary
+   A  0000 Delta Pavonis                              G8V                              -                                   -     0.00 -999.50        6.11     4.47    -2.60    -3.25
+   A  0000 2MA 0937+2931                              BD                               -                                   -     0.00 -999.50        6.14    -3.97    -1.28     4.51
+   A  0000 Xi Bootis                                  G8V + K4V                        -                                   -     0.00 -999.50        6.78     2.93     1.21     5.99  Stars: 16-49.7 au
+   A  0000 HR 753                                     K3V + M7V  M3V                   -                                   -     0.00 -999.50        7.30    -4.72     1.41    -5.39  AC: 24au, B: 1200au
+   A  0000 107 Piscium                                K1V                              -                                   -     0.00 -999.50        7.48    -4.24     3.72    -4.91
+   A  0000 Beta Hydri                                 G2IV                             -                                   -     0.00    3.45        7.50     3.30    -4.73    -4.79  Planets likely but not found yet
+   A  0000 Mu Cassiopeiae                             G5V + M5V                        -                                   -     0.00 -999.50        7.54    -4.29     6.11    -1.04  Stars: .5-2.3 au
+   A  0000 TW Piscis Austrini                         K4V                              -                                   -     0.00 -999.50        7.64     3.21     0.91    -6.87
+ S A  0000 Fomalhaut (Alp Piscis Austrini)            A3V                              -                                   1     0.00    1.72        7.66     3.13     1.17    -6.89  Protosystem: 3J: 116au (elliptical)
+   A  0000 Wolf 718                                   K7V                              -                                   -     0.00 -999.50        7.72     6.58     3.00     2.69
+ S A  0000 Vega (Alpha Lyrae)                         A0V                              -                                   1     0.00    0.58        7.80     2.83     6.79     2.59  Protosystem
+ P A  0000 Pi 3 Orionis                               F6V                              -                                   1     0.00    3.67        8.00    -7.20    -1.42    -3.18  Prime Candidate for planets
+   A  0000 Chi Draconis                               F7V + K0V                        -                                   -     0.00 -999.50        8.06    -1.66     6.93     3.76  Stars: 1au
+   A  0000 Rho Eridani                                K2V + K3V                        -                                   -     0.00 -999.50        8.07     1.42    -3.80    -6.98  Stars: 30-98au
+   A  0000 Alula (Xi Ursae Majoris)                   F9V + M3V + G3V + BD             -                                   -     0.00 -999.50        8.37    -2.87    -0.78     7.83  AB: 12.5-40au; Aab: .8-2.6au; Bab:.06au
+ P A  0000 Asterion (Bet Canum Venaticorum)           G0V                              -                                   1     0.00 -999.50        8.39    -1.62     1.43     8.11  Prime Candidate for planets (aka Chara)
+   A  0000 Mu Herculis                                G5IV + BD + M3V + M4V            -                                   -     0.00     3.8        8.40     4.62     6.03     3.59  AD: 17.2au, BC: 286au (9.4-13.5au)
+   A  0000 61 Virginis                                G5V                              -                                   -     0.00 -999.50        8.52     4.07    -4.56     5.93  5E:0.05, 18E:0.22, 24E:0.35
+   A  0000 Zeta Tucanae                               F9V                              -                                   -     0.00 -999.50        8.59     3.31    -4.14    -6.76
+   A  0000 Chi Orionis                                G0V + M6V                        -                                   -     0.00 -999.50        8.80    -8.70    -1.28    -0.43  6au (eccentric)
+ S A  0000 GJ 183                                     K4III                            -                                   1     0.00 -999.50        8.80    -7.08    -3.31    -4.05
+   A  0000 Gamma Leporis                              F7V + K2V                        -                                   -     0.00 -999.50        8.95    -5.59    -5.90    -3.75
+   A  0000 Rana (Delta Eridani)                       K0IV                             -                                   -     0.00 -999.50        9.02    -5.93    -1.92    -6.52
+   A  0000 Delta Eridani                              K0IV                             -                                   -     0.00    3.74        9.04    -5.96    -1.95    -6.51
+   A  0000 Groombridge 1830                           G8VI                             -                                   -     0.00 -999.50        9.11    -2.63     0.44     8.71
+   A  0000 Kappa Ceti                                 G5V                              -                                   -     0.00 -999.50        9.16    -6.66     0.25    -6.28
+   A  0000 Beta Comae Berenices                       G0V                              -                                   -     0.00 -999.50        9.19     0.54     0.51     9.16
+   A  0000 Gamma Pavonis                              F6V                              -                                   -     0.00 -999.50        9.22     6.00    -3.71    -5.93
+   A  0000 HR 4523                                    G4V + M4V                        -                                   -     0.00 -999.50        9.24     2.97    -8.11     3.28  Stars: 235au
+   A  0000 61 Ursae Majoris                           G8V                              -                                   -     0.00 -999.50        9.54    -2.70    -0.16     9.15
+   A  0000 GJ 638                                     K5V                              -                                   -     0.00 -999.50        9.77     4.30     6.23     6.18  Possible Variable star
+   A  0000 12 Ophiuchi                                K2V                              -                                   -     0.00 -999.50        9.80     8.37     2.04     4.68
+   A  0000 HR 511                                     K0V                              -                                   -     0.00 -999.50        9.98    -6.30     7.74     0.28
+   A  0000 Pollux (Beta Geminorum)                    K0III                            -                                   -     0.00    1.07       10.34    -9.28    -2.01     4.09
+   A  0000 Zeta Herculis                              F9IV + G7V                       -                                   -     0.00    2.64       10.80     4.99     6.54     6.99
+   A  0000 Beta Leonis                                A3V                              -                                   -     0.00    1.92       11.09    -1.21    -3.44    10.47
+ S A  0000 Arcturus (Alpha Boötis)                    K2III                            -                                   1     0.00   -0.31       11.25     3.88     1.05    10.51
+   A  0000 Eta Boötis                                 G0IV                             -                                   -     0.00    2.41       11.34     3.31     0.31    10.84
+   A  0000 Delta Capricorni                           A5V                              -                                   -     0.00    2.49       11.82     6.51     5.02    -8.50
+   A  0000 Gamma Virginis                             F0V + F0V                        -                                   -     0.00    2.38       11.83     2.67    -5.02    10.37
+   A  0000 Beta Trianguli Australis                   F2IV                             -                                   -     0.00    2.38       12.31     9.60    -7.54    -1.60
+ S A  0000 Capella (Alpha Aurigae)                    G5III + G0III                    -                                   1     0.00   -0.49       12.94   -12.31     3.85     1.04
+   A  0000 Theta Ursae Majoris                        F6IV                             -                                   -     0.00    2.52       13.49    -9.12     2.37     9.65
+   A  0000 Gamma Cephei                               K1IV                             -                                   -     0.00    2.51       13.79    -6.44    11.64     3.64
+   A  0000 Alpha Ophiuchi                             A5III-IV                         -                                   -     0.00     1.3       14.32    10.70     7.76     5.50
+   A  0000 Eta Cephei                                 K0IV                             -                                   -     0.00    2.63       14.34    -1.91    13.92     2.90
+   A  0000 Iota Ursae Majoris                         A7IV                             -                                   -     0.00    2.29       14.64   -10.96     1.62     9.56
+   A  0000 Alpha Cephei                               A7IV                             -                                   -     0.00    1.58       14.96    -2.83    14.50     2.38
+   A  0000 Delta Aquilae                              F2IV                             -                                   -     0.00    2.43       15.37    11.79     9.73    -1.61
+   A  0000 Castor (Alpha Geminorum)                   A1V + A2V                        -                                   -     0.00    0.59       15.81   -14.47    -1.89     6.06
+   A  0000 Alpha Circini                              F0V + K5V                        -                                   -     0.00    2.11       16.40    11.43   -11.69    -1.33
+   A  0000 Beta Cassiopeiae                           F2III                            -                                   -     0.00    1.17       16.70    -7.41    14.94    -0.88
+   A  0000 Xi Geminorum                               F5IV                             -                                   -     0.00    2.13       17.54   -16.36    -6.18     1.36
+   A  0000 Delta Leonis                               A4V                              -                                   -     0.00    1.32       17.69    -4.99    -4.87    16.26
+   A  0000 Iota Centauri                              A2V                              -                                   -     0.00    1.48       17.97    10.30   -12.48     7.82
+   A  0000 Delta Geminorum                            F2IV + K3V                       -                                   -     0.00    2.22       18.03   -16.68    -4.77     4.93
+   A  0000 Beta Arietis                               A5V                              -                                   -     0.00    1.33       18.27   -11.13     8.59   -11.66
+   A  0000 Theta Centauri                             K0III                            -                                   -     0.00     0.7       18.68    12.98   -11.08     7.61
+   A  0000 Eta Serpentis                              K0III-IV                         -                                   -     0.00    1.84       18.94    16.82     8.52     1.79
+   A  0000 Rho Puppis                                 F6III                            -                                   -     0.00    1.41       19.23    -8.65   -17.12     1.51
+   A  0000 Alpha Trianguli                            F6IV                             -                                   -     0.00    1.95       19.66   -12.59    11.09   -10.24
+ S A  0000 Aldabaran (Alpha Tauri)                    K5III                            -                                   1     0.00   -0.64v      19.96   -18.73    -0.32    -6.91
+   A  0000 Epsilon Scorpii                            K2.5III                          -                                   -     0.00    0.78       20.06    19.55    -3.88     2.30
+   A  0000 Alpha Arietis                              K2III                            -                                   -     0.00    0.48       20.21   -13.28     9.47   -11.93
+   A  0000 BE Ceti (9 Ceti)                           G2-3V                            -                                   -     0.00 -999.50       20.39    -0.73     5.69   -19.56
+   A  0000 GJ 9769                                    G0V                              -                                   -     0.00 -999.50       21.30     9.13    11.58   -15.37  1.3J: 1.1au
+   A  0000 Alpha Hydri                                F0III                            -                                   -     0.00    1.16       21.86     4.30   -12.20   -17.62
+   A  0000 Eta Scorpii                                F3III-IV                         -                                   -     0.00    1.61       21.95    21.12    -5.91    -0.86
+   A  0000 Epsilon Cygni                              K0III                            -                                   -     0.00    0.76       22.09     5.34    21.33    -2.18
+   A  0000 94 Ceti                                    F8V + M3V                        -                                   -     0.00 -999.50       22.40   -15.13    -0.35   -16.51  F8v: 1.7j: 1.4au  M3v:151au
+   A  0000 Alpha Serpentis                            K2III                            -                                   -     0.00    0.87       22.45    15.63     3.93    15.63
+   A  0000 Zeta Virginis                              A3V                              -                                   -     0.00    1.62       22.45     9.14    -6.31    19.51
+   A  0000 Alpha Coronae Borealis                     A0V + G5V                        -                                   -     0.00    0.42       22.91    10.10     9.05    18.46
+ R A  0000 HD 1461                                    G0V                              -                                   1     0.00    4.62       23.44    -1.33     8.13   -21.94  .024J .063au .14ecc, .072J 1.165au .74ecc, .3J 5au .15ecc, 1.5 metalicity
+   A  0000 Alpha Librae                               A3IV + F4IV                      -                                   -     0.00    0.77       23.67    17.56    -6.26    14.58
+   A  0000 Lambda Sagittarii                          K1III                            -                                   -     0.00    0.95       23.70    23.33     3.15    -2.69
+   A  0000 Alpha Phoenicis                            K0III                            -                                   -     0.00    0.52       23.73     6.76    -3.26   -22.51
+ S A  0000 Regulus (Alpha Leonis)                     B7-8V + WD + K1-2V + M4-5V       -                                   1     0.00   -0.52       23.76   -10.76   -11.31    17.91  WD .35au, star AB 4200 au, star B-C 98.9au,
+   A  0000 Mizar (Zeta Ursae Majoris)                 A2V + A2V + A1V                  -                                   -     0.00    0.33       23.96    -4.47    10.49    21.08
+   A  0000 HD 156668                                  K2-3V                            -                                   -     0.00 -999.50       24.05    12.55    16.04    12.79  4.14E .05au
+   A  0000 Sarin (Delta Herculis)                     A3IV                             -                                   -     0.00    1.21       24.07    14.07    14.97    12.55
+   A  0000 Beta Ursae Majoris                         A1V                              -                                   -     0.00    0.41       24.35   -12.04     7.20    19.90
+   A  0000 Delta Velorum                              A0V                              -                                   -     0.00    0.01       24.45     0.89   -24.23    -3.12
+   A  0000 Epsilon Ursae Majoris                      A0IV                             -                                   -     0.00    -0.2       24.81    -6.38    10.14    21.73
+   A  0000 Delta Ursae Majoris                        A3V                              -                                   -     0.00    1.33       24.97    -8.61     9.33    21.50
+   A  0000 Beta Ophiuchi                              K2III                            -                                   -     0.00    0.76       25.14    20.95    11.70     7.48
+   A  0000 Gamma Ceti                                 A3V + F3V + K5V                  -                                   -     0.00    1.47       25.14   -16.03     3.16   -19.10
+   A  0000 Beta Aurigae                               A2IV                             -                                   -     0.00    -0.1       25.18   -24.17     5.34     4.57
+   A  0000 Zeta Aquilae                               A0V                              -                                   -     0.00    0.96       25.52    17.43    18.59     1.49
+   A  0000 Gamma Ursae Majoris                        A0V                              -                                   -     0.00    0.36       25.65    -9.52     7.76    22.52
+   A  0000 HD 44594                                   G3-4V                            -                                   -     0.00 -999.50       25.69    -5.32   -22.67   -10.86
+   A  0000 Eta Ophiuchi                               A1V + A3V                        -                                   -     0.00    0.37       25.79    24.85     2.91     6.28
+   A  0000 Gamma Bootis                               A7III                            -                                   -     0.00    0.96       26.12     4.08     9.72    23.89
+   A  0000 Kappa Ophiuchi                             K2III                            -                                   -     0.00    1.09       26.32    20.16    10.91    12.94
+   A  0000 Beta Columbae                              K2III                            -                                   -     0.00    1.02       26.36   -11.24   -20.60   -11.99
+   A  0000 Eta Draconis                               G8III                            -                                   -     0.00    0.58       26.90    -0.91    20.29    17.63
+   A  0000 Algorel (Delta Corvi)                      B9.5V                            -                                   -     0.00    0.79       26.95     8.05   -16.87    19.40
+   A  0000 Gacrux (Gamma Crucis)                      M3.5III                          -                                   -     0.00   -0.52       26.96    13.47   -23.20     2.66
+   A  0000 Beta Eridani                               A3III                            -                                   -     0.00     0.6       27.24   -22.25   -10.55   -11.64
+   A  0000 Ascella (Zeta Sagittarii)                  A2IV + A4V                       -                                   -     0.00    0.42       27.31    26.14     3.14    -7.27
+   A  0000 Xi Scorpii                                 F5IV + F5IV + G8V + G8V + K2V    -                                   -     0.00 -999.50       28.37    24.71     0.01    13.94  star B 19au .7126ecc (5.5-32.6au), C 210au (unstable), DE 8000au, D-E 329au (planets possible around D or E)
+ R A  0000 Algol (Beta Persei)                        B5-8V + K0-2IV + A5V             -                                   1     0.00   -0.18       28.46   -23.57    14.17    -7.32  star B .062au, star C 2.69au, interesting
+   A  0000 HD 70642                                   G5V                              -                                   -     0.00 -999.50       28.76    -6.17   -28.08    -0.84  2J 3.32au .05ecc, 1.4 metalicity
+   A  0000 Beta Ceti                                  K0III                            -                                   -     0.00    -0.3       29.38     2.86     7.02   -28.38
+   A  0000 Gamma 2 Sagittarii                         K0III                            -                                   -     0.00    0.63       29.46    29.37     0.49    -2.34
+   A  0000 Theta Pegasi                               A2V                              -                                   -     0.00    1.16       29.61     8.89    21.34   -18.51
+   A  0000 Alpha Andromedae                           B9IV                             -                                   -     0.00    -0.3       29.76    -8.43    23.66   -15.96
+   A  0000 Alpha Pictoris                             A7III                            -                                   -     0.00    0.83       30.34     0.90   -27.68   -12.39
+   A  0000 Ruchbah (Delta Cassiopeiae)                A5III                            -                                   -     0.00    0.24       30.48   -18.42    24.25    -1.27
+   A  0000 Delta Draconis                             G9III                            -                                   -     0.00    0.63       30.73    -4.28    27.97    11.99
+   A  0000 Eta Ursae Majoris                          B3V                              -                                   -     0.00   -0.59       30.87    -2.36    12.69    28.05
+   A  0000 Persian (Alpha Indi)                       K0III                            -                                   -     0.00    0.65       31.05    24.49    -3.20   -18.81
+   A  0000 Delta Andromedae                           K3III                            -                                   -     0.00    0.81       31.07    -9.18    25.09   -15.85
+   A  0000 Pi Hydrae                                  K2III                            -                                   -     0.00    0.79       31.08    20.73   -15.68    17.05
+   A  0000 Alpha Gruis                                B7IV                             -                                   -     0.00   -0.72       31.09    18.67    -3.31   -24.64
+   A  0000 Iota Draconis                              K2III                            -                                   -     0.00    0.81       31.33    -1.45    20.67    23.50
+   A  0000 Epsilon Virginis                           G8III                            -                                   -     0.00    0.37       31.35     5.92    -6.53    30.09
+   A  0000 Gamma Geminorum                            A0IV                             -                                   -     0.00    -0.6       32.13   -30.67    -9.26     2.53
+   A  0000 Xi Serpentis                               F0III                            -                                   -     0.00    0.99       32.33    31.42     5.91     4.82
+   A  0000 Epsilon Ophiuchi                           G9III                            -                                   -     0.00    0.64       32.96    27.98     4.18    16.91
+   A  0000 Alpha Canum Venaticorum                    A0IV + F0V                       -                                   -     0.00    0.16v      33.78    -3.12     5.78    33.14
+   A  0000 Beta Carinae                               A2III                            -                                   -     0.00   -0.99       34.08     9.07   -31.74    -8.48
+   A  0000 Eta Herculis                               G8III                            -                                   -     0.00     0.8       34.35    12.09    22.99    22.48
+   A  0000 Iota Cephei                                K0III                            -                                   -     0.00    0.76       35.37   -12.66    32.81     3.80
+ P A  0000 Mu Velorum                                 G5III + G2V                      -                                   -     0.00   -0.06       35.49     7.92   -34.18     5.31
+   A  0000 Zeta Lupi                                  G8III                            -                                   -     0.00    0.65       35.64    28.62   -21.01     3.11
+   A  0000 Mu Pegasi                                  G8III                            -                                   -     0.00    0.74       35.78    -0.36    30.81   -18.19
+   A  0000 Delta Bootis                               G8III                            -                                   -     0.00    0.69       35.79    11.29    15.02    30.46
+   A  0000 Eta Ceti                                   K2III                            -                                   -     0.00    0.67       36.06    -7.96     7.30   -34.41
+   A  0000 Tau Sagittarii                             K1III                            -                                   -     0.00    0.48       36.91    35.12     5.76    -9.80
+   A  0000 Alpha Ursae Majoris                        K0III + F0V                      -                                   -     0.00   -1.09       37.91   -19.00    14.44    29.46
+   A  0000 Beta Trianguli                             A5III                            -                                   -     0.00    0.09       38.11   -26.67    21.88   -16.20
+   A  0000 Lambda Aquilae                             B9V                              -                                   -     0.00    0.51       38.39    33.02    19.23    -3.66
+   A  0000 Gamma Leonis                               K0III + G7III                    -                                   -     0.00   -0.93       38.52   -17.89   -13.30    31.42
+   A  0000 Beta Ursae Minoris                         K4III                            -                                   -     0.00   -0.87       38.77   -11.37    27.23    25.16
+   A  0000 G Scorpii                                  K2III                            -                                   -     0.00    0.24       38.90    38.51    -4.35    -3.35
+   A  0000 Xi Hydrae                                  G8III                            -                                   -     0.00    0.55       39.64     8.51   -33.92    18.66
+   A  0000 Epsilon Gruis                              A3V                              -                                   -     0.00    0.49       39.75    20.33    -8.11   -33.18
+   A  0000 Gamma Centauri                             A0III + A0III                    -                                   -     0.00   -0.81       39.98    20.19   -33.16     9.57
+   A  0000 Beta Tauri                                 B7III                            -                                   -     0.00   -1.36       40.18   -40.06     1.42    -2.66
+   A  0000 Gamma Hydrae                               G8III                            -                                   -     0.00   -0.05       40.50    20.63   -23.63    25.62
+   A  0000 Lambda Ursae Majoris                       A2IV                             -                                   -     0.00    0.38       41.20   -23.53     1.69    33.78
+   A  0000 Epsilon Hydrae                             G5III + A8V + F7                 -                                   -     0.00    0.29       41.44   -27.57   -23.77    19.81
+*P A  0000 Omicron Leonis                             A9V + F6V                        Leonis                              4     0.00    0.43       41.46   -21.94   -21.61    27.76
++  A  0000                                                                             Leonis                              4     0.00
+   A  0000 Beta Pavonis                               A7III                            -                                   -     0.00    0.29       42.18    29.23   -17.59   -24.80
+   A  0000 Nu Hydrae                                  K2III                            -                                   -     0.00   -0.03       42.48    -2.85   -33.53    25.92
+   A  0000 Alpha Pegasi                               B9IV                             -                                   -     0.00   -0.67       42.81     0.94    32.58   -27.75
+   A  0000 Beta Corvi                                 G5III                            -                                   -     0.00   -0.51       42.84    15.44   -29.34    27.14
+   A  0000 Alpha Eridani                              B3V                              -                                   -     0.00   -2.77       44.09     8.09   -21.35   -37.72
+   A  0000 Epsilon Sagittarii                         B9.5III                          -                                   -     0.00   -1.39       44.35    43.70    -0.64    -7.53
+   A  0000 Psi Ursae Majoris                          K1III                            -                                   -     0.00   -0.27       45.02   -19.62     4.99    40.22
+   A  0000 Gamma Draconis                             K5III                            -                                   -     0.00   -1.04       45.25     7.49    38.80    22.05
+   A  0000 Beta Herculis                              G7III                            -                                   -     0.00    -0.5       45.31    26.87    21.76    29.29
+ + A  0000 Theta 2 Tauri                              A7III                            -                                   2     0.00     0.1       45.68   -42.38    -0.28   -17.06
+   A  0000 Eta Sagittarii                             M3.5III                          -                                   -     0.00    -0.2       45.72    44.98    -2.80    -7.75
+   A  0000 Zeta Hydrae                                G9III                            -                                   -     0.00   -0.21       46.21   -29.56   -26.93    23.17
+   A  0000 Zeta Cygni                                 G8III                            -                                   -     0.00   -0.12       46.25    10.36    43.96   -10.00
+*  A  0000 Hyades Cluster                             Cluster                          Hyades                              2     0.00 -999.50       46.34   -42.87    -0.06   -17.60
++  A  0000                                                                             Hyades                              2    10.00
+   A  0000 Nu Ophiuchi                                K0III                            -                                   -     0.00   -0.03       46.84    44.18    14.48     5.68
+ + A  0000 Epsilon Tauri                              K0III                            -                                   2     0.00    0.15       47.53   -44.67     1.84   -16.13
+   A  0000 Mu Serpentis                               A0V                              -                                   -     0.00    0.14       47.76    37.89     3.11    28.90
+   A  0000 Beta Leporis                               G5III                            -                                   -     0.00   -0.63       48.80   -31.42   -29.91   -22.36
+   A  0000 Delta Aquarii                              A3III                            -                                   -     0.00   -0.18       48.92    15.47    18.24   -42.68
+   A  0000 Beta Librae                                B8V                              -                                   -     0.00   -0.84       49.07    37.64    -5.29    31.03
+   A  0000 Theta Eridani                              A4III + A1V                      -                                   -     0.00   -0.59       49.46    -9.09   -22.36   -43.17
+   A  0000 Alpha Reticuli                             G8III                            -                                   -     0.00   -0.17       50.05     2.85   -37.27   -33.29
+   A  0000 Gamma Corvi                                B8III                            -                                   -     0.00   -0.94       50.56    12.93   -33.63    35.47
+   A  0000 Beta Gruis                                 M5III                            -                                   -     0.00   -1.52v      52.16    26.85    -6.60   -44.24
+   A  0000 Beta Canis Minoris                         B8V                              -                                   -     0.00    -0.7       52.19   -44.49   -25.17    10.54
+   A  0000 Delta Ophiuchi                             M1III                            -                                   -     0.00   -0.86       52.19    43.62     6.74    27.86
+   A  0000 Delta Cygni                                B9.5III + F1V                    -                                   -     0.00   -0.74       52.44    10.13    50.60     9.31
+ P A  0000 Theta Aurigae                              A0III + G2V                      -                                   -     0.00   -0.98       53.11   -52.48     5.17     6.26
+   A  0000 Alpha Doradus                              A0IV + B9IV                      -                                   -     0.00   -0.36       53.88    -4.38   -40.16   -35.65
+   A  0000 Alpha Hydrae                               K3II                             -                                   -     0.00    -1.7       54.35   -22.59   -41.77    26.43
+   A  0000 Theta Leonis                               A2III                            -                                   -     0.00   -0.35       54.47   -13.32   -19.28    49.17
+   A  0000 Gamma Trianguli Australis                  A1III                            -                                   -     0.00   -0.87       56.02    39.54   -38.58    -9.32
+   A  0000 Tau Puppis                                 K1III                            -                                   -     0.00    -0.8       56.02    -8.95   -51.58   -19.94
+   A  0000 Alpha Pavonis                              B0.5V + B2V                      -                                   -     0.00   -1.82       56.18    43.37   -14.98   -32.42
+   A  0000 Omicron Ursae Majoris                      G5III                            -                                   -     0.00   -0.40v      56.31   -41.93    18.67    32.61
+ P A  0000 Sigma Puppis                               K5III + G5V                      -                                   -     0.00   -0.51       56.37   -13.61   -53.44   -11.67
+   A  0000 Mu Leporis                                 B9IV                             -                                   -     0.00   -0.47v      56.53   -39.40   -29.96   -27.31
+   A  0000 Beta Phoenicis                             G8III                            -                                   -     0.00   -0.55       59.17     8.63   -18.07   -55.68
+   A  0000 Alpha Tucanae                              K3III                            -                                   -     0.00   -1.05       60.90    35.34   -20.31   -45.25
+   A  0000 Beta Pegasi                                M2III                            -                                   -     0.00   -1.49v      61.09    -5.40    53.13   -29.66
+*- A  0000 Beta Andromedae                            M0II                             Andromedae                          5     0.00   -1.86       61.12   -32.87    43.35   -27.86
+   A  0000 Delta Virginis                             M3III                            -                                   -     0.00   -0.57       62.07    14.61   -20.29    56.81
+   A  0000 Gamma Gruis                                B8III                            -                                   -     0.00   -0.97       62.23    38.53     4.08   -48.69
+   A  0000 Zeta Pegasi                                B8.5V                            -                                   -     0.00   -0.62       63.94     9.50    47.60   -41.62
+   A  0000 Epsilon Bootis                             K0II-III + A2V                   -                                   -     0.00   -1.69       64.31    21.16    17.41    58.18
+   A  0000 Gamma Hydri                                M2III                            -                                   -     0.00   -0.83       65.66    16.97   -49.00   -40.28
+ P A  0000 Eta Pegasi                                 G2II-III + F0V                   -                                   -     0.00   -1.16       65.88    -2.59    59.66   -27.81
+   A  0000 Beta Bootis                                G8III                            -                                   -     0.00   -0.64       67.07    12.75    30.99    58.10
+   A  0000 Eta Aurigae                                B3V                              -                                   -     0.00   -0.96       67.25   -65.09    16.91     0.38
+   A  0000 Alpha Ceti                                 M2III                            -                                   -     0.00   -1.61       67.48   -46.85     5.56   -48.24
+   A  0000 Gamma Eridani                              M1III                            -                                   -     0.00   -1.19       67.80   -43.79   -20.56   -47.50
+   A  0000 Alpha Lyncis                               K7III                            -                                   -     0.00   -1.02       68.07   -47.61    -8.59    47.89
+   A  0000 Sigma Sagittarii                           B3V                              -                                   -     0.00   -2.14       68.78    66.25    11.12   -14.75
+   A  0000 Epsilon Leporis                            K5III                            -                                   -     0.00   -1.02       69.49   -42.53   -40.00   -37.69
+   A  0000 Alpha Cassiopeiae                          K0II                             -                                   -     0.00   -1.99       70.08   -30.40    62.76    -6.91
+   A  0000 Phi Sagittarii                             B8III                            -                                   -     0.00   -1.08       70.72    68.78     9.69   -13.31
+   A  0000 Mu Geminorum                               M3III                            -                                   -     0.00   -1.39v      71.07  -69.086  -12.000     5.17
+   A  0000 Gamma Phoenicis                            K5III                            -                                   -     0.00   -0.87       71.74     4.07   -21.53   -68.31
+   A  0000 N Velorum                                  K5III                            -                                   -     0.00   -1.15       72.89    10.32   -71.96    -5.22
+   A  0000 Alpha Arae                                 B2V                              -                                   -     0.00   -1.51       74.29    69.30   -24.20   -11.44
+*- A  0000 Bellatrix (Gamma Orionis)                  B2III                            Bellatrix                           6     0.00   -2.72       74.52   -68.51   -20.89   -20.55
+   A  0000 Mu Ursae Majoris                           M0III                            -                                   -     0.00   -1.35       76.28   -42.29     1.53    63.46
+   A  0000 Alpha Telescopii                           B3IV                             -                                   -     0.00   -0.93       76.45    72.33   -14.54   -20.05
+   A  0000 Epsilon Leonis                             G1II                             -                                   -     0.00   -1.46       76.86   -45.69   -23.07    57.34
+   A  0000 Gamma Persei                               G8III + A2V                      -                                   -     0.00   -1.57       78.62   -61.86    48.16    -5.93
+   A  0000 Zeta Leonis                                F0II-III                         -                                   -     0.00   -1.08       79.62   -39.41   -23.02    65.23
+   A  0000 Spica (Alpha Virginis)                     B1V + B2V                        -                                   -     0.00   -3.56       80.39    36.55   -35.26    62.31
+   A  0000 Alpha Columbae                             B7IV                             -                                   -     0.00   -1.93       82.24   -37.27   -61.68   -39.61
+   A  0000 Theta Scorpii                              F1II                             -                                   -     0.00   -2.75       83.40    80.87   -18.51    -8.61
+   A  0000 Gamma Sagittae                             K5III                            -                                   -     0.00   -1.11       84.03    44.34    70.97    -7.69
+ S A  0000 PSR J0108-1431                             Pulsar                           -                                   -     0.00 -999.50       85.00   -15.11    12.18   -82.75
+   A  0000 Theta Aquilae                              B9.5III                          -                                   -     0.00   -1.48       88.03    62.64    55.54   -27.21
+   A  0000 Beta Cancri                                K4III                            -                                   -     0.00   -1.24       89.05   -67.64   -46.13    35.02
+   A  0000 Sigma Librae                               M3III                            -                                   -     0.00   -1.51       89.53    72.45   -30.46    42.87
+   A  0000 Epsilon Corvi                              K2II                             -                                   -     0.00   -1.82       93.02    25.28   -67.43    58.89
+   A  0000 Alpha Muscae                               B2V                              -                                   -     0.00   -2.17       93.72    48.87   -79.32   -10.23
+*- A  0000 Delta Sagittarii                           K2II                             Sagitarian                          7     0.00   -2.14       93.72    92.86     4.91   -11.65
+   A  0000 Eta Centauri                               B1.5V                            -                                   -     0.00   -2.55v      94.61    72.26   -54.76    27.02
+   A  0000 Beta Muscae                                B2V + B3V                        -                                   -     0.00   -1.86       95.42    50.95   -80.21    -8.70
+ S A  0000 Canopus (Alpha Carinae)                    F0Ib                             -                                   -     0.00   -5.64       95.88   -13.23   -85.67   -40.95
+   A  0000 Acrux (Alpha Crucis)                       B0.5IV + B1V                     -                                   -     0.00   -4.17       98.33    49.42   -85.01    -0.62
+   A  0000 Rho Persei                                 M3III                            -                                   -     0.00   -1.67v      99.70   -82.20    48.25   -29.25
+   A  0000 Gamma Pegasi                               B2IV                             -                                   -     0.00   -2.22      102.15   -18.37    68.71   -73.32
+   A  0000 Zeta Canis Majoris                         B2.5V                            -                                   -     0.00   -2.05      103.09   -52.16   -81.99   -34.43
+   A  0000 Zeta Draconis                              B6III                            -                                   -     0.00   -1.92      104.17    -8.90    84.84    59.78
+*- A  0000 Beta Capricorni                            G5II + A0V                       Capricornus                         8     0.00   -2.07      105.49    82.55    46.00   -46.86
+   A  0000 Eta Geminorum                              M3III                            -                                   -     0.00   -1.84v     107.07  -105.68   -16.50     4.75
+   A  0000 Beta Crucis                                B0.5III                          -                                   -     0.00   -3.91      108.11    57.99   -91.04     5.98
+   A  0000 Gamma Andromedae                           K3II + B8V + A0V                 -                                   -     0.00   -3.08      108.81   -75.42    70.35   -34.67
+   A  0000 Beta Draconis                              G2II                             -                                   -     0.00   -2.43      110.86    16.75    91.05    60.99
+   A  0000 Delta Crucis                               B2IV                             -                                   -     0.00   -2.45      111.61    52.63   -98.14     7.47
+*- A  0000 Pi Herculis                                K3II                             Herculean                           9     0.00    -2.1      112.49    45.52    80.95    63.47
+   A  0000 Lambda Tauri                               B3V + A4IV                       -                                   -     0.00   -1.87      113.51   -98.94     2.72   -55.57
+   A  0000 Omega Carinae                              B8III                            -                                   -     0.00   -1.99      113.51    38.38  -104.55   -21.92
+   A  0000 Xi 2 Sagittarii                            K0II                             -                                   -     0.00   -1.77      114.16   108.48    28.34   -21.45
+*- A  0000 Epsilon Centauri                           B1III                            Centauri                           10     0.00   -3.02      115.21    73.51   -86.98    17.40
+   A  0000 Alpha Herculis                             M5III + G5III                    -                                   -     0.00   -2.04v     117.23    84.38    60.37    54.57
+ + A  0000 Zeta Centauri                              B2.5IV                           -                                  10     0.00   -2.81      117.92    79.63   -82.05    28.85
+   A  0000 Beta Cygni                                 K3II + B8V + B9V                 -                                   -     0.00   -2.31      118.20    55.00   104.21     9.35
+   A  0000 Chi Carinae                                B3IV                             -                                   -     0.00   -1.91      118.62    -6.65  -115.71   -25.27
+   A  0000 Delta Centauri                             B2IV                             -                                   -     0.00   -2.84v     121.21    51.93  -106.79    24.33
+   A  0000 Delta Scorpii                              B0.5IV                           -                                   -     0.00   -3.16      123.15   112.02   -19.64    47.25
+   A  0000 Lambda Centauri                            B9III                            -                                   -     0.00   -2.39      125.63    52.06  -114.29    -3.01
+   A  0000 Alpha Trianguli Australis                  K2Ib-II                          -                                   -     0.00   -3.61      127.39    96.28   -76.37   -33.54
+   A  0000 Zeta Tauri                                 B4III                            -                                   -     0.00   -2.56      127.88  -126.63   -12.79   -12.45
+   A  0000 a Carinae                                  B2IV                             -                                   -     0.00   -2.11      128.37    16.94  -126.19   -16.37
+   A  0000 Nu Ursae Majoris                           K3II                             -                                   -     0.00   -2.07      129.20   -45.52    -8.65   120.60
+   A  0000 Nu Puppis                                  B8III                            -                                   -     0.00   -2.39      129.70   -37.64  -115.51   -45.42
+*S A  0000 Betelgeuse (Alpha Orionis)                 M2Ib                             Betelgeuse                         11     0.00   -5.04v     131.06  -121.82   -43.79   -20.50
+ + A  0000 Sterope                                    A0Vn                             Pleiades                            3     0.00 -999.50      131.58  -117.25    29.03   -52.18
+   A  0000 Tau Scorpii                                B0V                              -                                   -     0.00   -2.78      131.75   127.09   -18.85    29.19
+   A  0000 Epsilon Canis Majoris                      B2II                             -                                   -     0.00    -4.1      132.10   -64.99  -112.08   -25.81
+*S A  0000 Polaris (Alpha Ursae Minoris)              F7Ib-II                          Polaris                            12     0.00   -3.62v     132.28   -64.93    98.99    59.01
+ + A  0000 Celaeno                                    B7IV                             Pleiades                            3     0.00 -999.50      132.80  -117.98    29.33   -53.44
+ + A  0000 Merope                                     B6IIIe                           Pleiades                            3     0.00 -999.50      133.13  -118.53    28.30   -53.62
+ + A  0000 Maia                                       B7III                            Pleiades                            3     0.00 -999.50      133.38  -118.75    29.23   -53.21
+   A  0000 Theta Carinae                              B0V                              -                                   -     0.00   -2.91      134.59    44.99  -126.32   -11.51
+   A  0000 Pi Sagittarii                              F2II                             -                                   -     0.00   -2.77      134.95   126.27    36.04   -31.12
+   A  0000 Epsilon Cassiopeiae                        B2III                            -                                   -     0.00   -2.31      135.50   -86.69   104.07     3.94
+*- A  0000 18 Tauri                                   B8V                              Pleiades                            3     0.00 -999.50      135.74  -120.84    30.79   -53.61
++  A  0000                                                                             Pleiades                            3    10.00
+ + A  0000 Electra                                    B6IIIe                           Pleiades                            3     0.00 -999.50      136.64  -121.35    29.85   -55.25
+ + A  0000 Taygeta                                    B6IV                             Pleiades                            3     0.00 -999.50      137.29  -122.12    30.48   -54.82
+ P A  0000 Alcyone (Eta Tauri)                        B7IIIe + A0V + A0V + F2V         Pleiades                            3     0.00   -2.41      137.74  -122.95    29.14   -54.82
+ + A  0000 Atlas A                                    B8III                            Pleiades                            3     0.00 -999.50      139.69  -125.07    28.84   -55.11
+ M A  0000 Zeta Ophiuchi                              O9.5V                            -                                  13     0.00    -3.2      140.45   127.94    13.96    56.23
+   A  0000 Pi Scorpii                                 B1V + B2V                        -                                   -     0.00   -2.85      140.85   128.91   -29.17    48.67
+   A  0000 Gamma Aquilae                              K3II                             -                                   -     0.00   -3.03      141.24    92.55   105.28   -17.29
+ + A  0000 Asterope                                   B8Ve                             Pleiades                            3     0.00 -999.50      141.62  -126.18    31.34   -56.16
+ + A  0000 Pleione                                    B8Vpe                            Pleiades                            3     0.00 -999.50      141.76  -126.97    29.41   -55.78
+   A  0000 Kappa Scorpii                              B1.5III                          -                                   -     0.00   -3.38      142.25   140.05   -22.13   -11.46
+   A  0000 Nu Centauri                                B2IV                             -                                   -     0.00   -2.41      145.56    95.97   -97.64    49.43
+   A  0000 Gamma Ursae Minoris                        A3II                             -                                   -     0.00   -2.84      147.28   -35.19   105.71    96.32
+   A  0000 Eta Lupi                                   B2.5IV + A5V                     -                                   -     0.00   -2.48      151.29   138.40   -53.81    28.92
+   A  0000 p Carinae                                  B4V                              -                                   -     0.00   -2.62      152.44    44.97  -145.41    -8.42
+   A  0000 Beta Canis Majoris                         B1III                            -                                   -     0.00   -3.95      153.14  -102.87  -107.02   -37.62
+   A  0000 Epsilon Lupi                               B2IV-V                           -                                   -     0.00   -2.58      154.56   130.72   -77.71    27.59
+   A  0000 Delta Lupi                                 B1.5IV                           -                                   -     0.00   -2.75      156.49   133.24   -72.98    37.58
+   A  0000 Iota Aurigae                               K3II                             -                                   -     0.00   -3.29      156.99  -153.97    25.59   -16.78
+   A  0000 Upsilon Scorpii                            B2IV                             -                                   -     0.00   -3.31      158.98   157.07   -24.05    -5.23
+   A  0000 Beta Lupi                                  B2III                            -                                   -     0.00   -3.35      160.51   129.70   -86.35    38.55
+   A  0000 Beta Centauri                              B1III                            -                                   -     0.00   -5.42      161.03   107.27  -120.05     3.43
+   A  0000 Mu Centauri                                B2IV-V                           -                                   -     0.00   -2.74v     161.55   106.64  -109.27    52.80
+   A  0000 Delta Persei                               B5III                            -                                   -     0.00   -3.04      161.81  -139.83    79.80   -16.21
+   A  0000 Beta Scorpii                               B1V + B2V                        -                                   -     0.00    -3.5      162.60   147.84   -17.84    65.30
+   A  0000 Epsilon Persei                             B0.5V + A2V                      -                                   -     0.00   -3.19      165.02  -149.97    62.48   -28.88
+   A  0000 Kappa Centauri                             B2IV                             -                                   -     0.00   -2.96      165.29   133.81   -87.41    42.14
+   A  0000 Kappa Velorum                              B2IV                             -                                   -     0.00   -3.62      165.29    16.85  -164.11   -10.21
+   A  0000 Alpha Lupi                                 B1.5III                          -                                   -     0.00   -3.83      168.07   129.14  -102.29    33.28
+*- A  0000 Theta Ophiuchi                             B2IV                             Ophiuchi                           13     0.00   -2.92      172.71   171.58     1.39    19.71
+   A  0000 Gamma Lupi                                 B2IV-V + B2IV-                   -                                   -     0.00    -3.4      173.91   151.84   -76.86    35.80
+   A  0000 Lambda Velorum                             K4Ib                             -                                   -     0.00   -3.99      175.75   -12.52  -175.08     8.72
+   A  0000 Zeta Arae                                  K3II                             -                                   -     0.00   -3.11      176.06   155.00   -79.57   -25.27
+   A  0000 Alpha Persei                               F5Ib                             -                                   -     0.00   -4.49      181.49  -150.56    99.64   -18.53
+   A  0000 Beta Cephei                                B2III                            -                                   -     0.00   -3.08v     182.48   -53.50   168.76    44.25
+   A  0000 Beta Arae                                  K3Ib-II                          -                                   -     0.00   -3.49      184.84   164.96   -75.63   -35.15
+   A  0000 Alpha Scorpii                              M1Ib + B4V                       -                                   -     0.00   -5.39v     185.19   176.97   -25.16    48.41
+   A  0000 Beta Aquarii                               G0Ib                             -                                   -     0.00   -3.47      187.62    98.82   109.99  -115.48
+   A  0000 Gamma Cassiopeiae                          B0IV                             -                                   -     0.00   -4.22v     187.97   -84.36   167.90    -5.07
+   A  0000 Epsilon Carinae                            K3II + B2V                       -                                   -     0.00   -4.57      193.80    14.22  -188.64   -42.09
+   A  0000 Gamma Lyrae                                B9II                             -                                   -     0.00    -3.2      194.55    85.14   169.53    43.12
+   A  0000 Epsilon Pegasi                             K2Ib                             -                                   -     0.00   -4.19      206.19    72.81   160.21  -107.44
+   A  0000 Iota Carinae                               A8Ib                             -                                   -     0.00   -4.42v     212.31    31.03  -208.42   -26.01
+   A  0000 Lambda Scorpii                             B2IV                             -                                   -     0.00   -5.05      215.52   213.14   -30.75    -8.57
+   A  0000 Kappa Orionis                              B0.5III                          -                                   -     0.00   -4.65      221.24  -172.81  -119.08   -70.04
+   A  0000 Zeta Cephei                                K1II                             -                                   -     0.00   -3.35      222.72   -50.37   216.85     6.43
+   A  0000 Sigma Scorpii                              B1III                            -                                   -     0.00   -3.86v     225.23   212.86   -32.66    65.95
+   A  0000 q Carinae                                  K3II                             -                                   -     0.00   -3.38      225.73    60.02  -217.10   -14.90
+   A  0000 Alpha Aquarii                              G2Ib                             -                                   -     0.00   -3.88      232.56    86.30   149.43  -155.90
+*S A  0000 Rigel (Beta Orionis)                       B8Ia                             Rigel                              14     0.00   -6.72v     236.97  -187.08  -104.97  -100.68
+   A  0000 Kappa Canis Majoris                        B1.5IV                           -                                   -     0.00   -3.42      242.13  -108.77  -207.71   -60.46
+ S A  0000 Zeta Orionis                               O9.5Ib + B0III                   -                                  14     0.00   -5.25      250.63  -215.15  -107.00   -71.23
+   A  0000 Mu 1 Scorpii                               B1.5V + B6.5V                    -                                   -     0.00   -4.01      251.89   244.01   -60.08    17.24
+   A  0000 Gamma Velorum                              WC8 + O9Ib                       -                                   -     0.00   -5.25      257.73   -31.96  -253.46   -34.08
+*- A  0000 Beta Lyrae                                 B8II                             Lyrae                              15     0.00   -3.71      270.27   117.74   233.26    69.10
+   A  0000 Eta Orionis                                B1V + B2V                        -                                   -     0.00   -3.86      276.24  -234.87  -108.57   -96.73
+   A  0000 Epsilon Geminorum                          G8Ib                             -                                   -     0.00   -4.15      277.01  -269.30   -45.41    46.34
+*- A  0000 Delta Orionis                              O9.5II + B2V                     Drione                             16     0.00   -4.99      280.90  -244.68  -108.20   -85.60
++  A  0000                                                                             Drione                             16    10.00
+   A  0000 Zeta Persei                                B1II + B8IV + A2                 -                                   -     0.00   -4.55      301.20  -274.78    87.93   -86.54
+ M A  0000 Lambda Orionis                             O8III                            -                                  16     0.00   -4.16      323.62  -305.63   -82.26   -67.52
+   A  0000 Pi Puppis                                  K4Ib                             -                                   -     0.00   -4.92      335.57  -117.92  -307.20   -65.79
+   A  0000 Gamma Arae                                 B1III                            -                                   -     0.00    -4.4      348.43   308.48  -146.51   -69.13
+   A  0000 Sigma Canis Majoris                        K7Ib                             -                                   -     0.00   -4.37      373.13  -188.24  -315.32   -66.09
+   A  0000 Alpha Leporis                              F0Ib                             -                                   -     0.00    -5.4      393.70  -269.33  -233.72  -166.84
+*  A  0000 Orion Nebula                               Nebula                           Orion                              17     0.00 -999.50      412.00  -339.88  -188.50  -136.73
+ + A  0000 Iota Orionis                               O9III                            -                                  17     0.00    -5.3      406.50  -333.27  -188.26  -136.86
+ + A  0000 Epsilon Orionis                            B0Ia                             -                                  17     0.00   -6.38      411.52  -355.58  -167.20  -122.29
+   A  0000 Xi Puppis                                  G5Ib                             -                                   -     0.00   -4.74      413.22  -197.45  -362.98     3.57
+   A  0000 Zeta Puppis                                O5Ia                             -                                   -     0.00   -5.95      429.18  -103.38  -415.10   -34.69
+*- A  0000 Gamma Cygni                                F8Ib                             Cygni                              18     0.00   -6.12      467.29    95.83   457.09    15.72
+   A  0000 Upsilon Carinae                            A7Ib + B7III                     -                                   -     0.00   -5.56      497.51   127.64  -474.73   -76.52
+   A  0000 Delta Canis Majoris                        F8Ia                             -                                   -     0.00   -6.87      549.45  -284.98  -462.95   -79.77
+   A  0000 Iota 1 Scorpii                             F2Ia                             -                                   -     0.00   -5.71      549.45   539.03   -88.54   -59.16
+   A  0000 Phi Velorum                                B5Ib                             -                                   -     0.00   -5.34      591.72    96.46  -583.80     0.95
+   A  0000 Epsilon Aurigae                            F0Ia                             -                                   -     0.00   -5.95      625.00  -596.96   184.67    12.75
+   A  0000 Eta Leonis                                 A0Ib                             -                                   -     0.00    -5.6      653.59  -319.83  -262.97   505.71
+   A  0000 Omicron 2 Canis Majoris                    B3Ia                             -                                   -     0.00   -6.46      787.40  -441.16  -642.42  -112.56
+   A  0000 Eta Canis Majoris                          B5Ia                             -                                   -     0.00   -7.51      980.39  -448.21  -864.84  -111.03
+*- A  0000 Deneb (Alpha Cygni)                        A2Ia                             Deneb                              19     0.00   -8.74      990.10    99.07   984.48    35.76
+ + A  0000 VY Canis Majoris                           M5Ie                             -                                   -     0.00   -9.40     1500.00  -761.64 -1285.44  -132.43  Largest star
+#  A  0000 ZZZZZZZZZZZZ2                              F5-6V-IV+F5-6V-IV+G8V+G8V+K2V    -                                   -     0.00 -999.50       28.37    24.71     0.01    13.94  star B 19au .7126ecc (5.5-32.6au), C 210au (unstable), DE 8000au, D-E 329au (planets possible around D or E)
+#  SR   ID Star Name                                  Spectra                          Association                       Pol   P Dist Abs Mag    Distance        X        Y        Z  Other Notes
